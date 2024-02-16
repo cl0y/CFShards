@@ -1,0 +1,8 @@
+name: CFShards
+version: '${version}'
+author: ConderFix
+website: https://vk.com/conderfix
+main: dev.conderfix.cfshards.Main
+api-version: '1.16'
+commands:
+  cfshards:

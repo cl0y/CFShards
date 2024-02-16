@@ -1,0 +1,38 @@
+shards:
+  texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2EzNmIzZmIyMzhlOWYyY2Y4MmU5YmExYzMwMzRiOTY5ZmY5NWQzOGQ4ZDE1MTY4ZDQzZDQ2NjQ1MzE2NCJ9fX0=
+  name: ' &#fb7102Ш&#fb8002м&#fb8f01а&#fb9e01т&#fbac01о&#fbbb01ч&#fbca00е&#fbd900к'
+  lore:
+    - ' &#fd6f00&n◢&f Ценная вещица, которая открывает'
+    - ' &#fd6f00◤ &fморе возможностей...'
+  bossbar:
+    enable: true
+    text: '&#fb8400Осторожно! Шматочек!'
+    color: YELLOW
+    style: SOLID
+
+  actionbar:
+    enable: true
+    text: '&6Обнаружен Шматочек: &fвыйдешь - все Шматочки выпадут!'
+
+  title:
+    enable: false
+    text: '&f'
+    subtitle: '&cНе выходите с шматочками, они выпадут!'
+
+  place-message:
+    enable: true
+    text: '&#fb0000▶ &fШматочек нельзя поставить...'
+
+block-inv: # Инвентари в которых запрещено хранить шматки
+  - CHEST
+  - ENDER_CHEST
+
+teleport:
+  exception: # Миры в которые нельзя телепортироваться co шардом
+    - world_nether
+    - world_the_end
+  message: '&#fb0000▶ &fНельзя перейти в другой мир пока у вас в инвентаре Шматочек..'
+
+messages:
+  noPermission: '&#fb0000▶ &fУ вас нет прав на выдачу Шматочков!'
+  no-storage: '&#fb0000▶ &fТут шматочек нельзя хранить!'
